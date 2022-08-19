@@ -1,0 +1,89 @@
+.navbar-expand-lg .navbar-nav .nav-link
+{
+    color: var(--primary-color);
+    font-family: "Times New Roman", Times, serif;
+    font-size:20px;
+    float: center;
+    width: 150px;
+    padding: 10px;
+    
+    
+
+}
+
+.navbar-expand-lg .navbar-nav .nav-link.active-link
+{
+    color: var(--secundary-color);
+    text-decoration: underline;
+}
+
+.bg-light {
+    --bs-bg-opacity: 1;
+    background-color: black !important;
+}
+
+.logo{
+    
+        
+
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+
+}
+
+.logo-image
+{
+    width: 170px;
+    height: 70px;
+}
+
+.navbar-toggler .navbar-toggler-icon
+{
+    
+    color: var(--primary-color);
+    
+}
+
+.socialmedia
+{
+    font-family: "Times New Roman", Times, serif;
+    font-size:25px;
+    float: right;
+    display: grid;
+    /* aqui eu determino é são 3 colunas de tamanhos iguas, cada coluna tem uma fração */
+    grid-template-columns: repeat(3, 1fr);
+    /* esssa é a altura das linhas, se vc quiser pode apaga-la caso não queira uma altura definida */
+    grid-auto-rows: 40px;
+    grid-gap: 10px 12px;
+    padding-right: 200px;
+    padding-left: 0px;
+    
+}
+
+a
+{
+    color: white;
+    text-decoration: none;
+    padding: 0px 2px;
+
+}
+/* unvisited link */
+a:link {
+    color: gray;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: gray;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: white;
+  }
+  
+  /* selected link */
+  a:active {
+    color: gold;
+  }
